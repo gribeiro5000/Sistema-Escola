@@ -1,0 +1,6 @@
+﻿lançamento de notas
+controle de frequencia de alunos e professor
+controle de matricula
+controle de inadimplencia
+controle de fluxo de caixa
+emissão de boleto e boletim

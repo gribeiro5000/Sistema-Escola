@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43481876-937A-447C-A148-E360825C017C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_Escola</RootNamespace>
+    <AssemblyName>Sistema Escola</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Avaliaçao do Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avaliaçao do Aluno.Designer.cs">
+      <DependentUpon>Avaliaçao do Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Avaliação do Professor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avaliação do Professor.Designer.cs">
+      <DependentUpon>Avaliação do Professor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boletim.cs" />
+    <Compile Include="boleto.cs" />
+    <Compile Include="Cadastro Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro Aluno.Designer.cs">
+      <DependentUpon>Cadastro Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro Atendimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro Atendimento.Designer.cs">
+      <DependentUpon>Cadastro Atendimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro Professor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro Professor.Designer.cs">
+      <DependentUpon>Cadastro Professor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cancelamento de Matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancelamento de Matricula.Designer.cs">
+      <DependentUpon>Cancelamento de Matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexão.cs" />
+    <Compile Include="Controle de Fluxo de Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controle de Fluxo de Caixa.Designer.cs">
+      <DependentUpon>Controle de Fluxo de Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle de Frequencia Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controle de Frequencia Aluno.Designer.cs">
+      <DependentUpon>Controle de Frequencia Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle de inadimplencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controle de inadimplencia.Designer.cs">
+      <DependentUpon>Controle de inadimplencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emissão de boletim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emissão de boletim.Designer.cs">
+      <DependentUpon>Emissão de boletim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emissão de Boleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emissão de Boleto.Designer.cs">
+      <DependentUpon>Emissão de Boleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage Aluno.Designer.cs">
+      <DependentUpon>Homepage Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage Atendimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage Atendimento.Designer.cs">
+      <DependentUpon>Homepage Atendimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage Prof.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage Prof.Designer.cs">
+      <DependentUpon>Homepage Prof.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lançamento de Notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lançamento de Notas.Designer.cs">
+      <DependentUpon>Lançamento de Notas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LançamentoNota.cs" />
+    <Compile Include="Login Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Aluno.Designer.cs">
+      <DependentUpon>Login Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Atendimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Atendimento.Designer.cs">
+      <DependentUpon>Login Atendimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Professor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Professor.Designer.cs">
+      <DependentUpon>Login Professor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuário.cs" />
+    <EmbeddedResource Include="Avaliaçao do Aluno.resx">
+      <DependentUpon>Avaliaçao do Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avaliação do Professor.resx">
+      <DependentUpon>Avaliação do Professor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro Aluno.resx">
+      <DependentUpon>Cadastro Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro Atendimento.resx">
+      <DependentUpon>Cadastro Atendimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro Professor.resx">
+      <DependentUpon>Cadastro Professor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancelamento de Matricula.resx">
+      <DependentUpon>Cancelamento de Matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle de Fluxo de Caixa.resx">
+      <DependentUpon>Controle de Fluxo de Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle de Frequencia Aluno.resx">
+      <DependentUpon>Controle de Frequencia Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle de inadimplencia.resx">
+      <DependentUpon>Controle de inadimplencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emissão de boletim.resx">
+      <DependentUpon>Emissão de boletim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emissão de Boleto.resx">
+      <DependentUpon>Emissão de Boleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage Aluno.resx">
+      <DependentUpon>Homepage Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage Atendimento.resx">
+      <DependentUpon>Homepage Atendimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage Prof.resx">
+      <DependentUpon>Homepage Prof.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lançamento de Notas.resx">
+      <DependentUpon>Lançamento de Notas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Aluno.resx">
+      <DependentUpon>Login Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Atendimento.resx">
+      <DependentUpon>Login Atendimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Professor.resx">
+      <DependentUpon>Login Professor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Comments.txt" />
+    <Content Include="Objetivos!!!.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

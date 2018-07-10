@@ -1,0 +1,82 @@
+﻿
+cadastro 
+
+//c.cadastro(_usuario);
+
+            //c.cadastro(
+            //    "Atendimento",
+            //    textbox_usuario.Text,
+            //    textbox_senha.Text,
+            //    textbox_nome.Text,
+            //    Convert.ToInt32(textbox_idade.Text),
+            //    combobox_sexo.SelectedItem.ToString() == "Masculino" ? 1 : 2
+            //);
+
+
+parametros
+
+/*
+        public void cadastro(string cargo, string usuario, string senha, string nome, int idade, int sexo)
+        {
+            string query = @"INSERT INTO @Cargo (Usuário, Senha, Nome, Idade, Sexo) 
+                            value (@Usuario, @Senha, @Nome, @Idade, @Sexo)";
+
+            SqlCommand cmd = new SqlCommand(query, sqlConn);
+
+            var parameters = new List<SqlParameter>() {
+                new SqlParameter("@Cargo", cargo),
+                new SqlParameter("@Usuario", usuario),
+                new SqlParameter("@Senha", senha),
+                new SqlParameter("@Nome", nome),
+                new SqlParameter("@Idade", idade),
+                new SqlParameter("@Sexo", sexo)
+            };
+
+            for (int i = 0; i < parameters.Count; i++)
+            {
+                var parametroEmQuestão = parameters[i];
+
+                cmd.Parameters.Add(parametroEmQuestão);
+            }
+
+            foreach (var prm in parameters)
+            {
+                cmd.Parameters.Add(prm);
+            }
+
+            parameters.ForEach(_ => cmd.Parameters.Add(_));
+
+            //var pm_cargo = new SqlParameter("@Cargo", cargo);
+            //cmd.Parameters.Add(pm_cargo);
+            //
+            //var pm_usuario = new SqlParameter("@Usuario", usuario);
+            //cmd.Parameters.Add(pm_usuario);
+            //
+            //var pm_senha = new SqlParameter("@Senha", senha);
+            //cmd.Parameters.Add(pm_senha);
+            //
+            //var pm_nome = new SqlParameter("@Nome", nome);
+            //cmd.Parameters.Add(pm_nome);
+            //
+            //var pm_idade = new SqlParameter("@Idade", idade);
+            //cmd.Parameters.Add(pm_idade);
+            //
+            //var pm_sexo = new SqlParameter("@Sexo", sexo);
+            //cmd.Parameters.Add(pm_sexo);
+
+            abrir_conexao();
+            cmd.ExecuteNonQuery();
+            sqlConn.Close();
+
+            //string query = "INSERT INTO " + cargo + "(Usuário, Senha, Nome, Idade, Sexo) ";
+            //query += "values ('" + usuario + "', '" + senha + "', '";
+            //query += nome + "', " + idade + ", '" + sexo + "')";
+        }
+
+        private List<SqlParameter> cadastroParameters(string cargo, string usuario, string senha, string nome, int idade, int sexo)
+        {
+            
+
+            return parameters;
+        }
+        */

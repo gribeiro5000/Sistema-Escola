@@ -1,0 +1,56 @@
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.exe.config
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.exe
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.pdb
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Home.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Aluno.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Atendimento.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Prof.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Aluno.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Atendimento.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Professor.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Properties.Resources.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csproj.GenerateResource.cache
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csproj.CoreCompileInputs.cache
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.exe
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.pdb
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Aluno.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Atendimento.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Professor.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Lançamento_de_Notas.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Emissão_de_boletim.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Emissão_de_Boleto.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_Frequencia_Aluno.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_Fluxo_de_Caixa.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_inadimplencia.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cancelamento_de_Matricula.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Avaliaçao_do_Aluno.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Avaliação_do_Professor.resources
+C:\Users\gribe\source\repos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csprojResolveAssemblyReference.cache
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.exe.config
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.exe
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\bin\Debug\Sistema Escola.pdb
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csprojResolveAssemblyReference.cache
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Avaliaçao_do_Aluno.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Avaliação_do_Professor.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Aluno.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Atendimento.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cadastro_Professor.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Cancelamento_de_Matricula.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_Fluxo_de_Caixa.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_Frequencia_Aluno.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Controle_de_inadimplencia.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Emissão_de_boletim.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Emissão_de_Boleto.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Home.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Aluno.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Atendimento.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Homepage_Prof.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Lançamento_de_Notas.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Aluno.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Atendimento.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Login_Professor.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema_Escola.Properties.Resources.resources
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csproj.GenerateResource.cache
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.csproj.CoreCompileInputs.cache
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.exe
+C:\Users\gribe\source\repos\projetos\Sistema Escola\Sistema Escola\obj\Debug\Sistema Escola.pdb
